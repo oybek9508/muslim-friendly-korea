@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { PiLineVerticalThin } from "react-icons/pi";
 import { mosquesByProvince } from "../../data/mosques-by-province";
+import { useFuzzySearch } from "../../hooks/useFuzzySearch";
 
 const SearchMain = () => {
   const [open, setOpen] = useState(false);
@@ -23,6 +24,8 @@ const SearchMain = () => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  const { results, query, setQuery } = useFuzzySearch(mosquesByProvince);
 
   return (
     <div className="w-full bg-white py-6 px-4 md:px-12 flex justify-center border-b-2 border-[#E5E7EB]">
@@ -61,8 +64,8 @@ const SearchMain = () => {
             {/* <FaChevronDown size={18} /> */}
           </button>
           {open && (
-            <ul className="absolute left-0 top-full mt-2 bg-white rounded-xl shadow-lg z-10 w-64 max-h-120 overflow-y-auto">
-              {mosquesByProvince.map((place) => {
+            <ul className="absolute left-0 top-full mt-2 w-64 bg-white rounded-xl shadow-2xl z-10 overflow-y-auto max-h-120">
+              {results.map((place) => {
                 const Icon = place.icon;
                 return (
                   <li
@@ -121,6 +124,8 @@ const SearchMain = () => {
         >
           <input
             type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
             onFocus={() => {
               console.log("focused");
               setOpen(true);

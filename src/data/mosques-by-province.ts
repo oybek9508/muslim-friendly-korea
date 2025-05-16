@@ -23,6 +23,8 @@ export const mosquesByProvince: ProvinceMosqueData[] = [
     mosques: [
       {
         name: "Seoul Central Mosque",
+        // location: "서울특별시 영등포구 신길로60다길 21",
+        // phoneNo: "010-9892-1197",
         description:
           "The main and largest mosque in South Korea, located in Itaewon.",
       },
