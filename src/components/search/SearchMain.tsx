@@ -3,6 +3,7 @@ import { FiSearch } from "react-icons/fi";
 import { PiLineVerticalThin } from "react-icons/pi";
 import { mosquesByProvince } from "../../data/mosques-by-province";
 import { useFuzzySearch } from "../../hooks/useFuzzySearch";
+import Link from "next/link";
 
 const SearchMain = () => {
   const [open, setOpen] = useState(false);
@@ -69,27 +70,29 @@ const SearchMain = () => {
                 const Icon = place.icon;
                 return (
                   <li
-                    key={place.province}
+                    key={place.provinceId}
                     onClick={() => {
-                      setSelectedPlace(place.province);
+                      setSelectedPlace(place.provinceName);
                       setOpen(false);
                     }}
                     className="px-4 py-3 hover:bg-[#E5E7EB] cursor-pointer"
                   >
-                    <div className="flex space-x-3 items-start">
-                      <div className="pt-1">
-                        {" "}
-                        <Icon className={`text-[${place.iconColorCode}]`} />
-                      </div>
-                      <div>
-                        <div className="text-sm font-semibold text-[#111827]">
-                          {place.province}, South Korea
+                    <Link href={`${place.provinceId}`}>
+                      <div className="flex space-x-3 items-start">
+                        <div className="pt-1">
+                          {" "}
+                          <Icon className={`text-[${place.iconColorCode}]`} />
                         </div>
-                        <div className="text-xs text-[#6B7280]">
-                          {place.overview}
+                        <div>
+                          <div className="text-sm font-semibold text-[#111827]">
+                            {place.provinceName}, South Korea
+                          </div>
+                          <div className="text-xs text-[#6B7280]">
+                            {place.overview}
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   </li>
                 );
               })}

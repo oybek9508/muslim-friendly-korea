@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from "react";
 import { FiGlobe } from "react-icons/fi";
 import {

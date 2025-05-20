@@ -4,7 +4,7 @@ type PageWrapperPropTypes = {
   children: ReactNode;
   scroll?: boolean;
 };
-const PageWrapper = ({ children, scroll }: PageWrapperPropTypes) => {
+const PageWrapper = ({ children, scroll = true }: PageWrapperPropTypes) => {
   return (
     <div
       className={`flex flex-col min-h-screen 

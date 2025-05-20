@@ -11,7 +11,16 @@ export function useFuzzySearch(
 
   const fuse = useMemo(() => {
     return new Fuse(data, {
-      keys: ["province", "mosques.name"],
+      keys: [
+        "provinceName", // province name key
+        "overview", // search in overview text too
+        "mosques.name", // mosque names
+        "mosques.description", // mosque description
+        "mosques.tags", // mosque tags array
+        "mosques.services", // mosque services array
+        "mosques.address.street", // mosque address street
+        "mosques.imam.name",
+      ],
       threshold: 0.3,
       ignoreLocation: true,
       includeScore: false,
