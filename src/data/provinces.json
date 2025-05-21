@@ -1,0 +1,87 @@
+[
+  {
+    "provinceId": "seoul",
+    "provinceName": "Seoul",
+    "overview": "Capital city with multiple masjids and halal restaurants. Popular for cultural sites like Gyeongbokgung Palace and Namsan Tower."
+  },
+  {
+    "provinceId": "busan",
+    "provinceName": "Busan",
+    "overview": "Coastal city with a few mosques and halal eateries. Famous for Haeundae Beach and Jagalchi Fish Market."
+  },
+  {
+    "provinceId": "incheon",
+    "provinceName": "Incheon",
+    "overview": "Gateway city with masjids near the airport and halal-friendly spots. Known for Chinatown and Incheon Grand Park."
+  },
+  {
+    "provinceId": "daegu",
+    "provinceName": "Daegu",
+    "overview": "Has local mosques and halal food options. Attractions include Palgong Mountain and Seomun Market."
+  },
+  {
+    "provinceId": "gwangju",
+    "provinceName": "Gwangju",
+    "overview": "Several mosques serve the Muslim community, with halal restaurants emerging. Visit the May 18 Memorial Park and Yangnim-dong."
+  },
+  {
+    "provinceId": "daejeon",
+    "provinceName": "Daejeon",
+    "overview": "Offers mosque facilities and halal eateries. Science and tech city with Expo Park and Hanbat Arboretum."
+  },
+  {
+    "provinceId": "ulsan",
+    "provinceName": "Ulsan",
+    "overview": "Industrial city with some mosques and halal options. Popular for Taehwa River and Ulsan Grand Park."
+  },
+  {
+    "provinceId": "sejong",
+    "provinceName": "Sejong",
+    "overview": "New administrative city with growing Muslim-friendly facilities. Visit Sejong Lake Park and Government Complex."
+  },
+  {
+    "provinceId": "jeju",
+    "provinceName": "Jeju",
+    "overview": "Tourist island with halal food and prayer spaces. Known for Jeju Olle Trail and Hallasan Mountain."
+  },
+  {
+    "provinceId": "gyeonggi-do",
+    "provinceName": "Gyeonggi-do",
+    "overview": "Surrounds Seoul, many masjids and halal restaurants. Attractions include DMZ tours and Korean Folk Village."
+  },
+  {
+    "provinceId": "gangwon-do",
+    "provinceName": "Gangwon-do",
+    "overview": "Mountainous province with mosques and limited halal eateries. Famous for ski resorts and Seoraksan National Park."
+  },
+  {
+    "provinceId": "chungcheongbuk-do",
+    "provinceName": "Chungcheongbuk-do",
+    "overview": "Central province with mosque facilities and halal food emerging. Notable sites include Danyang and Cheongwon."
+  },
+  {
+    "provinceId": "chungcheongnam-do",
+    "provinceName": "Chungcheongnam-do",
+    "overview": "Western province with growing Muslim community and halal options. Visit Seosan and coastal areas."
+  },
+  {
+    "provinceId": "jeollabuk-do",
+    "provinceName": "Jeollabuk-do",
+    "overview": "Known for cultural heritage and mosque presence. Halal food options increasing. Explore Jeonju Hanok Village."
+  },
+  {
+    "provinceId": "jeollanam-do",
+    "provinceName": "Jeollanam-do",
+    "overview": "Southern province with mosques and halal eateries. Famous for Suncheon Bay and coastal beauty."
+  },
+  {
+    "provinceId": "gyeongsangbuk-do",
+    "provinceName": "Gyeongsangbuk-do",
+    "overview": "Has mosque facilities and halal food in cities. Popular for historical sites like Andong Hahoe Village."
+  },
+  {
+    "provinceId": "gyeongsangnam-do",
+    "provinceName": "Gyeongsangnam-do",
+    "overview": "Southern coastal province with mosque and halal presence. Visit Changwon and scenic coastal spots."
+  }
+]
