@@ -1,0 +1,356 @@
+[
+  {
+    "id": "seoul-halal-bistro",
+    "name": "Seoul Halal Bistro",
+    "province": "seoul",
+    "tags": ["halal food", "family-friendly", "takeout", "delivery"],
+    "description": "Popular halal restaurant in Seoul offering Middle Eastern and Korean fusion dishes.",
+    "address": {
+      "street": "15 Itaewon-ro, Yongsan-gu",
+      "city": "Seoul",
+      "postalCode": "04349",
+      "district": "Yongsan-gu",
+      "latitude": 37.534,
+      "longitude": 126.994
+    },
+    "contact": {
+      "phone": "+82-2-1234-5678",
+      "email": "contact@seoulhalalbistro.kr",
+      "website": "https://seoulhalalbistro.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": false,
+      "familyFriendly": true,
+      "delivery": true,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout", "Delivery"],
+    "languagesSpoken": ["Korean", "English", "Arabic"],
+    "images": [
+      "https://example.com/images/seoul-halal-bistro1.jpg",
+      "https://example.com/images/seoul-halal-bistro2.jpg"
+    ],
+    "socialMedia": {
+      "facebook": "https://facebook.com/seoulhalalbistro",
+      "instagram": "https://instagram.com/seoulhalalbistro"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "busan-halal-grill",
+    "name": "Busan Halal Grill",
+    "province": "busan",
+    "tags": ["halal food", "grill", "family-friendly", "outdoor seating"],
+    "description": "Known for its delicious halal grilled dishes and seaside atmosphere in Busan.",
+    "address": {
+      "street": "22 Haeundae Beach Road",
+      "city": "Busan",
+      "postalCode": "48097",
+      "district": "Haeundae-gu",
+      "latitude": 35.163,
+      "longitude": 129.163
+    },
+    "contact": {
+      "phone": "+82-51-9876-5432",
+      "email": "info@busanhalalgrill.com",
+      "website": "https://busanhalalgrill.com"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "outdoorSeating": true,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/busan-halal-grill1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/busanhalalgrill"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "incheon-halal-kitchen",
+    "name": "Incheon Halal Kitchen",
+    "province": "incheon",
+    "tags": ["halal food", "family-friendly", "delivery", "takeout"],
+    "description": "A trusted halal kitchen near Incheon airport serving traditional halal meals.",
+    "address": {
+      "street": "10 Airport Road, Jung-gu",
+      "city": "Incheon",
+      "postalCode": "22371",
+      "district": "Jung-gu",
+      "latitude": 37.46,
+      "longitude": 126.44
+    },
+    "contact": {
+      "phone": "+82-32-7654-3210",
+      "email": "contact@incheonhalalkitchen.kr",
+      "website": "https://incheonhalalkitchen.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "delivery": true,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout", "Delivery"],
+    "languagesSpoken": ["Korean", "English", "Arabic"],
+    "images": ["https://example.com/images/incheon-halal-kitchen1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/incheonhalalkitchen"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "daegu-halal-delight",
+    "name": "Daegu Halal Delight",
+    "province": "daegu",
+    "tags": ["halal food", "family-friendly", "takeout"],
+    "description": "A cozy halal restaurant in Daegu offering authentic Middle Eastern cuisine.",
+    "address": {
+      "street": "7 Dongseong-ro, Jung-gu",
+      "city": "Daegu",
+      "postalCode": "41941",
+      "district": "Jung-gu",
+      "latitude": 35.871,
+      "longitude": 128.601
+    },
+    "contact": {
+      "phone": "+82-53-123-4567",
+      "email": "info@daeguhalaldelight.com",
+      "website": "https://daeguhalaldelight.com"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": false,
+      "familyFriendly": true,
+      "delivery": false,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/daegu-halal-delight1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/daeguhalaldelight"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "gwangju-halal-restaurant",
+    "name": "Gwangju Halal Restaurant",
+    "province": "gwangju",
+    "tags": ["halal food", "family-friendly", "takeout"],
+    "description": "Popular halal spot in Gwangju with Korean and Middle Eastern dishes.",
+    "address": {
+      "street": "12 Buk-ro, Dong-gu",
+      "city": "Gwangju",
+      "postalCode": "61488",
+      "district": "Dong-gu",
+      "latitude": 35.159,
+      "longitude": 126.851
+    },
+    "contact": {
+      "phone": "+82-62-123-9876",
+      "email": "contact@gwangjuhalalrestaurant.kr",
+      "website": "https://gwangjuhalalrestaurant.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": false,
+      "familyFriendly": true,
+      "delivery": false,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/gwangju-halal-restaurant1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/gwangjuhalalrestaurant"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "daejeon-halal-cafe",
+    "name": "Daejeon Halal Cafe",
+    "province": "daejeon",
+    "tags": ["halal food", "cafe", "family-friendly", "takeout"],
+    "description": "Halal-certified cafe offering light meals and desserts in Daejeon.",
+    "address": {
+      "street": "30 Dunsan-ro, Seo-gu",
+      "city": "Daejeon",
+      "postalCode": "35213",
+      "district": "Seo-gu",
+      "latitude": 36.35,
+      "longitude": 127.385
+    },
+    "contact": {
+      "phone": "+82-42-123-6543",
+      "email": "info@daejeonhalalcafe.kr",
+      "website": "https://daejeonhalalcafe.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "delivery": false,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/daejeon-halal-cafe1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/daejeonhalalcafe"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "ulsan-halal-dining",
+    "name": "Ulsan Halal Dining",
+    "province": "ulsan",
+    "tags": ["halal food", "family-friendly", "delivery", "takeout"],
+    "description": "Ulsan’s top halal restaurant offering a variety of meat dishes and vegetarian options.",
+    "address": {
+      "street": "45 Samsan-ro, Nam-gu",
+      "city": "Ulsan",
+      "postalCode": "44719",
+      "district": "Nam-gu",
+      "latitude": 35.537,
+      "longitude": 129.316
+    },
+    "contact": {
+      "phone": "+82-52-123-7890",
+      "email": "contact@ulsanhalaldining.com",
+      "website": "https://ulsanhalaldining.com"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "delivery": true,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout", "Delivery"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/ulsan-halal-dining1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/ulsanhalaldining"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "gyeonggi-halal-cuisine",
+    "name": "Gyeonggi Halal Cuisine",
+    "province": "gyeonggi-do",
+    "tags": ["halal food", "family-friendly", "parking", "takeout"],
+    "description": "Well-known halal restaurant serving a variety of international halal dishes in Gyeonggi-do.",
+    "address": {
+      "street": "88 Suwon-ro, Suwon-si",
+      "city": "Suwon",
+      "postalCode": "16499",
+      "district": "Gwonseon-gu",
+      "latitude": 37.264,
+      "longitude": 127.028
+    },
+    "contact": {
+      "phone": "+82-31-123-4567",
+      "email": "info@gyeonggihalalcuisine.kr",
+      "website": "https://gyeonggihalalcuisine.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "delivery": false,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English", "Arabic"],
+    "images": ["https://example.com/images/gyeonggi-halal-cuisine1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/gyeonggihalalcuisine"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "gangwon-halal-kitchen",
+    "name": "Gangwon Halal Kitchen",
+    "province": "gangwon-do",
+    "tags": ["halal food", "family-friendly", "takeout"],
+    "description": "Halal-certified kitchen serving authentic dishes near ski resorts and tourist areas in Gangwon-do.",
+    "address": {
+      "street": "15 Gangneung-ro, Gangneung-si",
+      "city": "Gangneung",
+      "postalCode": "25448",
+      "district": "Gangneung-si",
+      "latitude": 37.751,
+      "longitude": 128.876
+    },
+    "contact": {
+      "phone": "+82-33-123-4567",
+      "email": "contact@gangwonhalalkitchen.kr",
+      "website": "https://gangwonhalalkitchen.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "delivery": false,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/gangwon-halal-kitchen1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/gangwonhalalkitchen"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  },
+  {
+    "id": "jeju-halal-deli",
+    "name": "Jeju Halal Deli",
+    "province": "jeju-do",
+    "tags": ["halal food", "family-friendly", "takeout", "local specialties"],
+    "description": "Jeju Island’s halal deli offering local seafood dishes and international halal meals.",
+    "address": {
+      "street": "20 Seogwipo-ro, Seogwipo-si",
+      "city": "Seogwipo",
+      "postalCode": "63540",
+      "district": "Seogwipo-si",
+      "latitude": 33.251,
+      "longitude": 126.564
+    },
+    "contact": {
+      "phone": "+82-64-123-4567",
+      "email": "info@jejuhalaldeli.kr",
+      "website": "https://jejuhalaldeli.kr"
+    },
+    "facilities": {
+      "halalCertified": true,
+      "parking": true,
+      "familyFriendly": true,
+      "delivery": false,
+      "takeout": true
+    },
+    "services": ["Dine-in", "Takeout"],
+    "languagesSpoken": ["Korean", "English"],
+    "images": ["https://example.com/images/jeju-halal-deli1.jpg"],
+    "socialMedia": {
+      "facebook": "https://facebook.com/jejuhalaldeli"
+    },
+    "verified": true,
+    "lastUpdated": "2025-05-21T12:00:00Z"
+  }
+]
