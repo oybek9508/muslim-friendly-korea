@@ -1,15 +1,15 @@
 // components/ProvinceCard.tsx
-type ItemCardProps = {
+type ProvinceCardProps = {
   name: string;
   imageUrl: string;
   description: string;
 };
 
-export default function ItemCard({
+export default function ProvinceCard({
   name,
   imageUrl,
   description,
-}: ItemCardProps) {
+}: ProvinceCardProps) {
   return (
     <div className="rounded-2xl overflow-hidden shadow-md bg-white transition-transform hover:scale-[1.02] cursor-pointer">
       <div
