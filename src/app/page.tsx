@@ -5,7 +5,9 @@ import MainLayout from "../components/layout/MainLayout";
 import HeroSection from "../components/HeroSection";
 import province from "../data/provinces.json";
 import masjids from "../data/masjids.json";
+import halalEatings from "../data/halalEatings.json";
 import TopDestinationsSection from "../components/section/TopDestionationsSection";
+import ValueProps from "../components/ValueProps";
 
 console.log("province", province);
 
@@ -23,6 +25,13 @@ const masjidData = masjids.map((data) => ({
   imageUrl: data.images[0],
 }));
 
+const halalEatingsData = halalEatings.map((data) => ({
+  id: data.id,
+  name: data.name,
+  description: data.description,
+  imageUrl: data.images[0],
+}));
+
 const Page = () => {
   return (
     <PageWrapper scroll={false}>
@@ -31,17 +40,20 @@ const Page = () => {
         <main className="p-4">
           <TopDestinationsSection
             title="Top Destionations"
-            viewAllLink="/destination"
+            viewAllLink="provinces"
             data={provinceData}
           />
           <TopDestinationsSection
             title="Featured Masjids"
-            viewAllLink="/masjids"
+            viewAllLink="masjids"
             data={masjidData}
           />
-          <p>page</p>
-          <p>page</p>
-          <p>page</p>
+          <TopDestinationsSection
+            title="Popular Halal Dinings"
+            viewAllLink="halal-eatings"
+            data={halalEatingsData}
+          />
+          <ValueProps />
         </main>
       </MainLayout>
     </PageWrapper>

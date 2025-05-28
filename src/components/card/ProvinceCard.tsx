@@ -10,6 +10,9 @@ export default function ProvinceCard({
   imageUrl,
   description,
 }: ProvinceCardProps) {
+  const shortDescription =
+    description.length > 70 ? description.slice(0, 70) + "..." : description;
+
   return (
     <div className="rounded-2xl overflow-hidden shadow-md bg-white transition-transform hover:scale-[1.02] cursor-pointer">
       <div
@@ -18,7 +21,7 @@ export default function ProvinceCard({
       />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-gray-800">{name}</h3>
-        <p className="text-sm text-gray-600 mt-1">{description}</p>
+        <p className="text-sm text-gray-600 mt-1">{shortDescription}</p>
         <button className="mt-3 text-emerald-600 font-medium hover:underline">
           Explore →
         </button>
