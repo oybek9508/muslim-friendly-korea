@@ -8,6 +8,7 @@ import masjids from "../data/masjids.json";
 import halalEatings from "../data/halalEatings.json";
 import TopDestinationsSection from "../components/section/TopDestionationsSection";
 import ValueProps from "../components/ValueProps";
+import CallToAction from "../components/section/CallToAction";
 
 console.log("province", province);
 
@@ -54,6 +55,7 @@ const Page = () => {
             data={halalEatingsData}
           />
           <ValueProps />
+          <CallToAction />
         </main>
       </MainLayout>
     </PageWrapper>
